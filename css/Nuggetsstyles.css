@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: 'Typeface', sans-serif; /* Font family */
+    color: #ADD8E6; /* Light blue font color */
+    background-color: #000080; /* Navy blue background */
+}
+
+/* Style definitions */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Positioning and styling of divs */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* White box shadow */
+}
+
+.section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* White box shadow */
+}
+
+.extra {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #ADD8E6; /* Light blue border */
+    border-radius: 5px;
+}
+/* CSS */
+/* Default link color */
+a {
+    color: #FEC524; /* Light blue color */
+}
+
+/* Hovered link color */
+a:hover {
+    color: #ffffff; /* Orange color */
+}
+
+/* Active link color */
+a:active {
+    color: #FEC524; /* Red color */
+}
+.lightblue{
+text-align: center;
+background-color: #0008ff;
+font: bolder;
+color: #FEC524;
+}
+
+.yellow{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #FEC524;
+    color: #0008ff;
+}
+.tableauPlaceholder{
+    text-align: center;
+    background-color: rgb(120, 3, 3);
+    color: #ADD8E6;
+}
